@@ -1,0 +1,10 @@
+/.bundle
+/vendor
+/log/*
+!/log/.keep
+/tmp/*
+!/tmp/.keep
+public/assets
+/node_modules
+/src
+/coverage
