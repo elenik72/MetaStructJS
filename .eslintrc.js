@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    browser: true,
+    browser: false,
     node: true,
     es2021: true,
     jest: true
@@ -8,10 +8,10 @@ module.exports = {
   extends: [
     'standard'
   ],
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 12,
-    sourceType: 'module',
-    parser: 'babel-eslint'
+    sourceType: 'module'
   },
   rules: {
     'no-multi-spaces': 'error',
