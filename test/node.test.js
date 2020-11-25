@@ -30,7 +30,7 @@ describe('Graph.Node', () => {
 
         expect(node.uuid).not.toEqual(null)
       })
-      test('uuids manual dont change', () => {
+      test('you can provide manual uuids', () => {
         const uuid = uuidv4()
         const node = Graph.Node.create(uuid, ['test'], {})
 

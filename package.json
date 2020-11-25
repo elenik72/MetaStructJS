@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "start": "webpack serve --hot",
-    "test": "jest --coverage",
+    "test": "jest --coverageReporters='text-summary'",
     "lint": "eslint lib"
   },
   "author": "sergey.and",

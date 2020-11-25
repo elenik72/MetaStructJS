@@ -17,6 +17,7 @@ describe('Graph.FindPoint', () => {
     [node1, node2, node3, node4, node5],
     [edge1, edge2, edge3, edge4, edge5]
   )
+
   describe('algorithm find point', () => {
     test('returns appropriated point', () => {
       expect(graph.find(1).node).toEqual(node1)
