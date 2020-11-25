@@ -19,8 +19,8 @@
 ### Graph Creation
 
 - create node `Graph.Node`:
-```javascript
 
+```javascript
 import Graph from 'MetaStruct'
 
 Graph.Node.create(
