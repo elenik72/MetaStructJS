@@ -19,6 +19,7 @@
 ### Graph Creation
 
 - create node `Graph.Node`:
+import Graph from 'MetaStruct'
 
 ```
 Graph.Node.create(
