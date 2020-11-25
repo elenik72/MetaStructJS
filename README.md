@@ -55,3 +55,25 @@ Graph.create(
 )
 ```
 ---
+
+### Build and Development
+
+- code style checking:
+
+```
+npm run lint
+```
+
+- development mode:
+
+```
+npm run start
+```
+
+- run tests:
+
+```
+npm run test // -- with using сoverage statement
+```
+
+---
