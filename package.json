@@ -1,33 +1,46 @@
 {
-  "private": true,
+  "name": "meta-struct-js",
+  "version": "0.1.0",
+  "keywords": [
+    "graph",
+    "edges",
+    "nodes",
+    "javascript"
+  ],
+  "description": "Creation directed acyclic graph",
+  "homepage": "https://github.com/elenik72/MetaStructJS/#README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elenik72/MetaStructJS"
+  },
+  "author": "Sergey Andreev <elenik1994@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "start": "webpack serve --hot",
     "test": "jest --coverage --coverageReporters='text-summary'",
     "lint": "eslint lib"
   },
-  "author": "sergey.and",
-  "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
-    "eslint-plugin-jest": "^24.1.0",
-    "uuid": "^8.3.1",
+    "eslint-plugin-jest": "^24.1.3",
+    "uuid": "^8.3.2",
     "webpack": "^4.44.2",
-    "webpack-cli": "^4.1.0",
+    "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.7",
-    "@babel/core": "^7.12.3",
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
     "@babel/eslint-parser": "^7.12.1",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
     "@babel/plugin-proposal-private-methods": "^7.12.1",
-    "@babel/plugin-transform-runtime": "^7.12.1",
-    "@babel/preset-env": "^7.12.7",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.6.3",
-    "babel-loader": "^8.1.0",
+    "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^3.0.0",
-    "eslint": "^7.14.0",
+    "eslint": "^7.15.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",

@@ -13,6 +13,10 @@ module.exports = {
     path: resolve(__dirname, '/src/public/')
   },
 
+  performance: {
+    hints: false
+  },
+
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
