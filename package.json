@@ -1,6 +1,6 @@
 {
   "name": "meta-struct-js",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "keywords": [
     "graph",
     "edges",
@@ -13,7 +13,8 @@
     "type": "git",
     "url": "git+https://github.com/elenik72/MetaStructJS"
   },
-  "main": "lib",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "author": "Sergey Andreev <elenik1994@gmail.com>",
   "license": "MIT",
   "scripts": {

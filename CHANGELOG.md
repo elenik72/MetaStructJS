@@ -2,6 +2,11 @@
 
 ## [Released]
 
+## [0.1.3] - 2020-12-14
+
+### Added
+- Added babel-generated version of the library
+
 ## [0.1.2] - 2020-12-14
 
 ### Changed
