@@ -2,6 +2,11 @@
 
 ## [Released]
 
+## [0.1.2] - 2020-12-14
+
+### Changed
+- Changed file path
+
 ## [0.1.1] - 2020-12-14
 
 ### Added
