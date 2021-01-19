@@ -6,7 +6,9 @@ module.exports = {
   entry: './src/app.js',
 
   devtool: 'eval-source-map',
-
+  devServer: {
+    port: 8081
+  },
   output: {
     filename: '[name]-[hash].js',
     publicPath: '/',
