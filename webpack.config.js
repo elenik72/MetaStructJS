@@ -3,8 +3,8 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
+  mode: 'development',
   entry: './src/app.js',
-
   devtool: 'eval-source-map',
   devServer: {
     port: 8081
@@ -14,18 +14,15 @@ module.exports = {
     publicPath: '/',
     path: resolve(__dirname, '/src/public/')
   },
-
   performance: {
     hints: false
   },
-
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: './src/index.html'
     })
   ],
-
   module: {
     rules: [
       {
